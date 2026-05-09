@@ -6,6 +6,8 @@ A Flutter application for browsing Rick and Morty locations, built with clean ar
 
 ## 📱 Screenshots
 
+![Rick & Morty Location Explorer – macOS](assets/macos_ss.png)
+
 > Run the app and take a screenshot to place here.  
 > For desktop, resize the window to ≥900 px wide — the layout switches to a two-column sidebar view automatically.
 
