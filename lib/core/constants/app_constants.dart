@@ -19,4 +19,23 @@ class AppConstants {
 class AppStrings {
   AppStrings._();
   static const String appName = 'Rick & Morty';
+  static const String locationsTitle = 'Locations';
+  static const String searchHint = 'Search locations…';
+  static const String filterByType = 'Filter by type';
+  static const String allTypes = 'All types';
+  static const String lastUpdated = 'Last updated';
+  static const String never = 'Never';
+  static const String retry = 'Retry';
+  static const String noResults = 'No locations found';
+  static const String noResultsSubtitle = 'Try adjusting your search or filter.';
+  static const String errorGeneric = 'Something went wrong';
+  static const String errorNetwork = 'No internet connection';
+  static const String errorNotFound = 'Resource not found';
+  static const String residents = 'Residents';
+  static const String dimension = 'Dimension';
+  static const String type = 'Type';
+  static const String name = 'Name';
+  static const String status = 'Status';
+  static const String unknown = 'Unknown';
+  static const String loadingMore = 'Loading more…';
 }
