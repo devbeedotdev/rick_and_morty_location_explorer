@@ -15,7 +15,12 @@ class ServerFailure extends AppFailure {
   @override
   List<Object?> get props => [message, statusCode];
 }
-
+class NotFoundFailure extends AppFailure {
+  const NotFoundFailure([super.message = 'Resource not found']);
+}
+class CacheFailure extends AppFailure {
+  const CacheFailure([super.message = 'Cache read/write failed']);
+}
 class UnknownFailure extends AppFailure {
   const UnknownFailure([super.message = 'An unexpected error occurred']);
 }
